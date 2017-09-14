@@ -14,8 +14,8 @@
   *		spaces: 2 stars 1    
  ***	spaces: 1 stars 3
 *****	spaces: 0 stars 5
- ***
-  *	
+ ***	spaces: 1 stars 3
+  *		spaces: 2 stars 1
 ============================
 		dim = 2  
 ============================
