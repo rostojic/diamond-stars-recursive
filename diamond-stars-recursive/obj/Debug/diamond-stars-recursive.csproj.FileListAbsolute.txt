@@ -1,0 +1,6 @@
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\bin\Debug\diamond-stars-recursive.exe.config
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\bin\Debug\diamond-stars-recursive.exe
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\bin\Debug\diamond-stars-recursive.pdb
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\obj\Debug\diamond-stars-recursive.csprojResolveAssemblyReference.cache
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\obj\Debug\diamond-stars-recursive.exe
+C:\Projects\diamond-stars-recursive\diamond-stars-recursive\obj\Debug\diamond-stars-recursive.pdb
