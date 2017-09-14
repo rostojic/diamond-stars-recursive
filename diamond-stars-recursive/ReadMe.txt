@@ -19,6 +19,6 @@
 ============================
 		dim = 2  
 ============================
- *       spaces: 1 stars 1    
+ *       spaces: 1 stars 1
 ***      spaces: 0 stars 3
  *	     spaces: 1 stars 1
