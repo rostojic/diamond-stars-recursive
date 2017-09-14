@@ -10,7 +10,17 @@ namespace diamond_stars_recursive
     {
         static void Main(string[] args)
         {
-            diamond(20,0);
+            try
+            {
+                int lenght = int.Parse(args[0]);
+                diamond(lenght, 0);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Use: diamond-stars-recursive diamond-lenght");
+            }
+            
         }
 
         static void print_stars(int dim)
