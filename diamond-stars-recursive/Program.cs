@@ -22,37 +22,43 @@ namespace diamond_stars_recursive
             }
             
         }
-
-        static void print_stars(int dim)
+        /// <summary>
+        /// Helper function for drawing a row of 'dim' chars
+        /// </summary>
+        static void print_chars(int dim, char character)
         {
             for (int i = 0; i < dim; i++)
             {
-                Console.Write("*");
+                Console.Write(character);
             }
-            Console.WriteLine();
+            if(character != ' ')
+            {
+                Console.WriteLine();
+            }
+            
         }
-  
+        /// <summary>
+        /// Core recursive function 
+        /// </summary>
+        /// <param name="max_dim"></param>
+        /// Diamond lenght in "stars"
+        /// <param name="dim"></param>
+        /// Helper parameter to speed up the recursion
         static void diamond(int max_dim, int dim)
         {
             if (max_dim <= dim)
             {
-                print_stars(2*dim-1);
+                print_chars(2 * dim - 1, '*');
             }
             else
             {
-                for (int i = 0; i < max_dim - dim; i++)
-                {
-                    Console.Write(" ");
-                }
-                print_stars(2 * dim - 1);
+                print_chars(max_dim - dim, ' ');
+                print_chars(2 * dim - 1, '*');
 
                 diamond(max_dim, dim + 1);
 
-                for (int i = 0; i < max_dim - dim; i++)
-                {
-                    Console.Write(" ");
-                }
-                print_stars(2 * dim - 1);
+                print_chars(max_dim - dim, ' ');
+                print_chars(2 * dim - 1, '*');
             }
         }
     }
